@@ -10,27 +10,56 @@
 	<form method="get">
 		<p class="crumb"><a href="index.html">Html Tags</a><a> &gt; </a><a href="test.html">Test</a></p>
 		<br/> Q1.Which is not tag?<br/>
-		<input type="radio" name="q1" />name<br/>
-		<input type="radio" name="q1" />br<br/>
-		<input type="radio" name="q1" />a<br/>
-		<input type="radio" name="q1" />input<br/>
+		<class = "not tag">
+		<label>
+		<input id = "not tag" type="radio" name="name" />name<br/>
+		</label>
+		<label>	
+		<input id = "not tag" type="radio" name="br" />br<br/>
+		</label>
+		<label>	
+		<input id = "not tag" type="radio" name="a" />a<br/>
+		</label>
+		<label>
+		<input id = "not tag" type="radio" name="input" />input<br/>
+		</label>
+		</class>
 		<br/> Q2.Which tag defines a hyperlink?<br/>
-		<input type="radio" name="q2" />a<br/>
-		<input type="radio" name="q2" />b<br/>
-		<input type="radio" name="q2" />address<br/>
+		<class = "hyperlink">
+		<label>
+		<input type="radio" name="a" />a<br/>
+		</label>
+		<label>
+		<input type="radio" name="b" />b<br/>
+		</label>
+		<label>
+		<input type="radio" name="address" />address<br/>
+		</label>
+		</class>
 		<br/> Q3.Which tag defines a single line break?<br/>
-		<input type="radio" name="q3" />br<br/>
-		<input type="radio" name="q3" />bdo<br/>
-		<input type="radio" name="q3" />bdi<br/>
+		<class = "">
+		<label>
+		<input type="radio" name="br" />br<br/>
+		</label>
+		<label>
+		<input type="radio" name="bdo" />bdo<br/>
+		</label>
+		<label>
+		<input type="radio" name="bdi" />bdi<br/>
+		</label>
+		</class>
 		<br/>
 		<form name="test" method="post" action="input1.php">
 			<label for="client-name">First name:</label>
 				<input type="text" id="client-name" placeholder="Name" size="40">
-			<p><b>Last name:</b><br>
-				<input type="text" size="40">
+				<br><br>
+				
+			<label >Last name:
+				<input type="text" placeholder="Last name" size="40">
+			</label>
 			</p>
 			<label>
-				Email:<input type="email" placeholder="Email">
+				Email: <input type="email" placeholder="Email">
 			</label>
 			<br>
 			<br>
